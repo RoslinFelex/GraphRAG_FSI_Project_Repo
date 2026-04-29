@@ -36,9 +36,9 @@ This repository includes a `research_traditional_rag` under Test_RAG folder (bas
 
 **Key Findings:**
 * **Traditional RAG:** Excellent for simple fact retrieval but struggled with "global" queries across multiple document sections.
-* **GraphRAG (Current):** Significantly improved entity relationship mapping and cross-document synthesis.
+* **GraphRAG (Current):** Significantly improved entity relationship mapping and cross-document synthesis. Refer Folder - `/notebook/Graph_RAG/graphRAG.ipynb`
 
-## 📂 Data Source
+## 📂 Data Source 
 Graph_RAG project uses the **Apple 2024-2025 10-Q filing** as the primary test case. 
 The document is located in the `/data/financial_pdf` folder. It was selected for its complex 
 financial tables and nested entity relationships, which perfectly demonstrate 
